@@ -63,13 +63,16 @@
                 } 
             else if (computerMove === 'Paper')
                 {
-                    result2 = 'You win.. ';
+                    result2 = 'You win. ';
                 } 
             else if (computerMove === 'Scissors')
                 {
                     result2 = 'Tie';
                 }
-
+            else
+                {
+                    result2 = 'Computer error.';
+                }
             alert(`You picked scissors. Computer picked ${computerMove}. ${result2}`);">Scissors</button>
     <script>
         let computerMove = '';
